@@ -3,12 +3,12 @@
 #wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/worldcam/main/installer.sh -O - | /bin/sh
 
 ##########################################
-version=4.3
+version=4.9
 #############################################################
 TEMPATH=/tmp
 OPKGINSTALL="opkg install --force-reinstall"
-MY_IPK="enigma2-plugin-extensions-worldcam_4.3_all.ipk"
-MY_DEB="enigma2-plugin-extensions-worldcam_4.3_all.deb"
+MY_IPK="enigma2-plugin-extensions-worldcam_4.9_all.ipk"
+MY_DEB="enigma2-plugin-extensions-worldcam_4.9_all.deb"
 MY_URL="https://raw.githubusercontent.com/tarekzoka/worldcam/main"
 # remove old version #
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/worldcam
